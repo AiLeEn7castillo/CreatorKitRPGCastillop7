@@ -18543,10 +18543,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1704651544}
     m_Modifications:
+    - target: {fileID: 320233495672156186, guid: 2a657642475934620a07fd2e829b35d7,
+        type: 3}
+      propertyPath: sprite
+      value: 
+      objectReference: {fileID: 21300096, guid: 3f198c94b65508c44a32b4b4072bb419,
+        type: 3}
     - target: {fileID: 5440847397157196389, guid: 2a657642475934620a07fd2e829b35d7,
         type: 3}
       propertyPath: m_Name
-      value: InventoryItem
+      value: Chicken
+      objectReference: {fileID: 0}
+    - target: {fileID: 5440847397157196389, guid: 2a657642475934620a07fd2e829b35d7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5440847397157196393, guid: 2a657642475934620a07fd2e829b35d7,
         type: 3}
@@ -19303,7 +19314,8 @@ MonoBehaviour:
   requiredItems:
   - item: {fileID: 1253358928}
     count: 1
-  spawnOnQuestComplete: []
+  spawnOnQuestComplete:
+  - {fileID: 1987181825}
   rewardItems:
   - {fileID: 1817253697}
   destroySpawnsOnQuestComplete: 1
@@ -20079,7 +20091,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 621828944}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1987181825}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 41613ed0111c54d85a17175edc8c4b77, type: 3}
@@ -20475,6 +20487,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4313844411128732863, guid: 81816288a86af46c598e1fa3b10e24a4,
     type: 3}
   m_PrefabInstance: {fileID: 399848215}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1987181825 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5440847397157196389, guid: 2a657642475934620a07fd2e829b35d7,
+    type: 3}
+  m_PrefabInstance: {fileID: 621828944}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2040031808
 PrefabInstance:
